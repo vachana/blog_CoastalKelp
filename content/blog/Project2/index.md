@@ -1,0 +1,8 @@
+---
+title: Project2!
+date: "2021-06-13"
+team:  Team02
+---
+
+It was difficult for him to admit he was wrong. He had been so certain that he was correct and the deeply held belief could never be shaken. Yet the proof that he had been incorrect stood right before his eyes. "See daddy, I told you that they are real!" his daughter excitedly proclaimed.
+

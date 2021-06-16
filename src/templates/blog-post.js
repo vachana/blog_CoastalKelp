@@ -24,6 +24,7 @@ const BlogPostTemplate = ({ data, location }) => {
         <header>
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
           <p>{post.frontmatter.date}</p>
+          <p><b>Created By : {post.frontmatter.team}</b></p>
         </header>
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}
@@ -31,7 +32,7 @@ const BlogPostTemplate = ({ data, location }) => {
         />
         <hr />
         <footer>
-          <Bio />
+          {/* Bio */}
         </footer>
       </article>
       <nav className="blog-post-nav">
@@ -84,6 +85,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        team
         description
       }
     }

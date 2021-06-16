@@ -45,6 +45,7 @@ const BlogIndex = ({ data, location }) => {
                     </Link>
                   </h2>
                   <small>{post.frontmatter.date}</small>
+                  <small>{post.frontmatter.team}</small>
                 </header>
                 <section>
                   <p

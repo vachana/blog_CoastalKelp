@@ -31,17 +31,17 @@ const Bio = () => {
   const social = data.site.siteMetadata?.social
 
   return (
-    <div className="bio">
-      <StaticImage
-        className="bio-avatar"
+    <div>
+      {<StaticImage
+        
         layout="fixed"
         formats={["AUTO", "WEBP", "AVIF"]}
-        src="../images/profile-pic.png"
-        width={50}
-        height={50}
+        src="../images/kelp.jpeg"
+        width={600}
+        height={250}
         quality={95}
-        alt="Profile picture"
-      />
+        alt="kelp"
+      /> }
       {author?.name && (
         <p>
           Written by <strong>{author.name}</strong> {author?.summary || null}

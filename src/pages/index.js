@@ -1,90 +1,36 @@
-import * as React from "react"
-import { Link, graphql } from "gatsby"
+import * as React from 'react'
+import Layout from '../components/layout'
 
-import Bio from "../components/bio"
-import Layout from "../components/layout"
-import Seo from "../components/seo"
+// Step 2: Define your component
+const Blog = (title,children) => {
+  let header
 
-const BlogIndex = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata?.title || `Title`
-  const posts = data.allMarkdownRemark.nodes
+  // if (isRootPath) {
+    header = (
+      <h1 className="main-heading">
 
-  if (posts.length === 0) {
-    return (
-      <Layout location={location} title={siteTitle}>
-        <Seo title="All posts" />
-        <Bio />
-        <p>
-          No blog posts found. Add markdown posts to "content/blog" (or the
-          directory you specified for the "gatsby-source-filesystem" plugin in
-          gatsby-config.js).
-        </p>
-      </Layout>
-    )
-  }
-
+Building the Earth Data Store(s)
+        
+        </h1>)
   return (
-    <Layout location={location} title={siteTitle}>
-      <Seo title="All posts" />
-      <Bio />
-      <ol style={{ listStyle: `none` }}>
-        {posts.map(post => {
-          const title = post.frontmatter.title || post.fields.slug
+    <div className="global-wrapper">
+      <header className="global-header">{header}</header>
+    <main>
+      
 
-          return (
-            <li key={post.fields.slug}>
-              <article
-                className="post-list-item"
-                itemScope
-                itemType="http://schema.org/Article"
-              >
-                <header>
-                  <h2>
-                    <Link to={post.fields.slug} itemProp="url">
-                      <span itemProp="headline">{title}</span>
-                    </Link>
-                  </h2>
-                  <small>{post.frontmatter.date}</small>
-                  <small>{post.frontmatter.team}</small>
-                </header>
-                <section>
-                  <p
-                    dangerouslySetInnerHTML={{
-                      __html: post.frontmatter.description || post.excerpt,
-                    }}
-                    itemProp="description"
-                  />
-                </section>
-              </article>
-            </li>
-          )
-        })}
-      </ol>
+      <Layout pageTitle="Blog">
+      <p>Kelp, or seaweed, is a rapidly growing food source that is an important carbon sequestration mechanism in aquatic ecosystems. Canada imports the vast majority of its kelp, which is a missed opportunity both economically and in terms of environmental impact. We feel that kelp farms can create jobs, enhance community revenue, feed Canadians, and act as an industrial input in a variety of processes. This project is an attempt to tie community benefits to student projects. Specifically, University of Victoria students in computer science classes will be consulting with communities and experts to develop online tools to help in the creation and operation of kelp farms. UVic fine arts students will be documenting the process and producing videos that we hope will expand the impact of this type of farming!”
+
+“Thanks to the many groups who have made this project possible. Special thanks to CEWIL Canada for funding the project, but equally to the industry groups contributing so much time and mentorship. In these pandemic times many of our students are remote, but we would like in particular to respectfully acknowledge the nuučaan̓uɫ (nuu-chah-nulth) speaking First Nations whose unceded territory so much of this project will take place.”
+.</p>
     </Layout>
+    </main>
+    </div>
   )
 }
 
-export default BlogIndex
+// Step 3: Export your component
+export default Blog
 
-export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-      nodes {
-        excerpt
-        fields {
-          slug
-        }
-        frontmatter {
-          date(formatString: "MMMM DD, YYYY")
-          title
-          description
-        }
-      }
-    }
-  }
-`
+
+

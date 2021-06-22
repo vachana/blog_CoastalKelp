@@ -65,7 +65,6 @@ module.exports = {
             site {
               siteMetadata {
                 title
-                team
                 description
                 siteUrl
                 site_url: siteUrl

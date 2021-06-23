@@ -32,7 +32,7 @@ const Bio = () => {
 
   return (
     <div>
-      {<StaticImage
+      {/* {<StaticImage
         
         layout="fixed"
         formats={["AUTO", "WEBP", "AVIF"]}
@@ -41,7 +41,7 @@ const Bio = () => {
         height={250}
         quality={95}
         alt="kelp"
-      /> }
+      /> } */}
       {author?.name && (
         <p>
           Written by <strong>{author.name}</strong> {author?.summary || null}

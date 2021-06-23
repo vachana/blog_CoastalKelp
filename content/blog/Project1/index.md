@@ -1,11 +1,11 @@
 ---
 title: Project1
 date: "2021-06-12"
-description:  Students in the senior level Distributed Systems class at UVic were asked to develop geospatial analytics projects using a variety of data sources and cloud services. Here are some of their experiences!
+description:  Project to ... (brief description)
 team:  Team01
 ---
 
-Students in the senior level Distributed Systems class at UVic were asked to develop geospatial analytics projects using a variety of data sources and cloud services. Here are some of their experiences!
+I've rented a car in Las Vegas and have reserved a hotel in Twentynine Palms which is just north of Joshua Tree. We'll drive from Las Vegas through Mojave National Preserve and possibly do a short hike on our way down. Then spend all day on Monday at Joshua Tree. We can decide the next morning if we want to do more in Joshua Tree or Mojave before we head back.
 
 # (For titles (More number of '#' for smaller size))
 

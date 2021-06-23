@@ -19,10 +19,21 @@ Building the Earth Data Store(s)
       
 
       <Layout pageTitle="Blog">
-      <p>Kelp, or seaweed, is a rapidly growing food source that is an important carbon sequestration mechanism in aquatic ecosystems. Canada imports the vast majority of its kelp, which is a missed opportunity both economically and in terms of environmental impact. We feel that kelp farms can create jobs, enhance community revenue, feed Canadians, and act as an industrial input in a variety of processes. This project is an attempt to tie community benefits to student projects. Specifically, University of Victoria students in computer science classes will be consulting with communities and experts to develop online tools to help in the creation and operation of kelp farms. UVic fine arts students will be documenting the process and producing videos that we hope will expand the impact of this type of farming!”
+        <h3>Profile of our kelp tool with temperature data here!</h3>
+      <iframe width="100%" height="500px" src="https://studio.unfolded.ai/public/dd8f0bad-ead6-4711-b7a4-a8b244fb0c5f/embed" frameborder="0" allowfullscreen></iframe>
+      
+      <br/><br/>
+      <p>Sample Question: ______________________</p>
 
-“Thanks to the many groups who have made this project possible. Special thanks to CEWIL Canada for funding the project, but equally to the industry groups contributing so much time and mentorship. In these pandemic times many of our students are remote, but we would like in particular to respectfully acknowledge the nuučaan̓uɫ (nuu-chah-nulth) speaking First Nations whose unceded territory so much of this project will take place.”
-.</p>
+<p>How to answer it using the tool : ____________________</p>
+
+
+
+<p>EO has potential in monitoring and evaluating Nature-based Solutions for Net-Zero emissions worldwide.  Combining satellite data with ground truth will allow us to gather metrics required to attract investment.</p>
+
+      <p>Kelp, or seaweed, is a rapidly growing food source that is an important carbon sequestration mechanism in aquatic ecosystems. Canada imports the vast majority of its kelp, which is a missed opportunity both economically and in terms of environmental impact. We feel that kelp farms can create jobs, enhance community revenue, feed Canadians, and act as an industrial input in a variety of processes. This project is an attempt to tie community benefits to student projects. Specifically, University of Victoria students in computer science classes will be consulting with communities and experts to develop online tools to help in the creation and operation of kelp farms. UVic fine arts students will be documenting the process and producing videos that we hope will expand the impact of this type of farming!</p>
+
+<p>“Thanks to the many groups who have made this project possible. Special thanks to CEWIL Canada for funding the project, but equally to the industry groups contributing so much time and mentorship. In these pandemic times many of our students are remote, but we would like in particular to respectfully acknowledge the nuučaan̓uɫ (nuu-chah-nulth) speaking First Nations whose unceded territory so much of this project will take place.”</p>
     </Layout>
     </main>
     </div>

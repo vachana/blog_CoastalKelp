@@ -6,7 +6,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const BlogIndex = ({ data, location }) => {
+const BlogIndexTwo = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
 
@@ -27,6 +27,13 @@ const BlogIndex = ({ data, location }) => {
   return (
     
     <Layout location={location} title={siteTitle}>
+        <p><b>In coordination with many partners, on a grant 
+                      funded by CEWIL Canada, UVic students are developing 
+                      materials on starting and operating kelp farms on
+                       Vancouver Island’s West coast. Community 
+                       students are participating to help figure out how 
+                       kelp farming can benefit their communities. 
+                       Watch here to hear about their experiences!</b></p>
       <Seo title="All posts" />
       <Bio />
       <ol style={{ listStyle: `none` }}>
@@ -35,28 +42,14 @@ const BlogIndex = ({ data, location }) => {
 
           return (
             <li key={post.fields.slug}>
+                
               <article
                 className="post-list-item"
                 itemScope
                 itemType="http://schema.org/Article"
               >
-                <header>
-                  <h2>
-                    <Link to={post.fields.slug} itemProp="url">
-                      <span itemProp="headline">{title}</span>
-                    </Link>
-                  </h2>
-                  <small>{post.frontmatter.date}</small>
-                  <small>{post.frontmatter.team}</small>
-                </header>
-                <section>
-                  <p
-                    dangerouslySetInnerHTML={{
-                      __html: post.frontmatter.description || post.excerpt,
-                    }}
-                    itemProp="description"
-                  />
-                </section>
+                  
+             
               </article>
             </li>
           )
@@ -66,7 +59,7 @@ const BlogIndex = ({ data, location }) => {
   )
 }
 
-export default BlogIndex
+export default BlogIndexTwo
 
 export const pageQuery = graphql`
   query {

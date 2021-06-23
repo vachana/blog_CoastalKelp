@@ -36,7 +36,7 @@ const Bio = () => {
         
         layout="fixed"
         formats={["AUTO", "WEBP", "AVIF"]}
-        src="../images/kelp.jpeg"
+        src="../images/ss.png"
         width={600}
         height={250}
         quality={95}

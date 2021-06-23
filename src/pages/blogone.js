@@ -27,6 +27,7 @@ const BlogIndex = ({ data, location }) => {
   return (
     
     <Layout location={location} title={siteTitle}>
+       <p><b>Students in the senior level Distributed Systems class at UVic were asked to develop geospatial analytics projects using a variety of data sources and cloud services. Here are some of their experiences!</b></p>
       <Seo title="All posts" />
       <Bio />
       <ol style={{ listStyle: `none` }}>
@@ -36,7 +37,7 @@ const BlogIndex = ({ data, location }) => {
           return (
             
             <li key={post.fields.slug}>
-              <p><b>Students in the senior level Distributed Systems class at UVic were asked to develop geospatial analytics projects using a variety of data sources and cloud services. Here are some of their experiences!</b></p>
+             
               
               <article
                 className="post-list-item"

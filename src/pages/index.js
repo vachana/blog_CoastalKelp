@@ -20,12 +20,13 @@ Building the Earth Data Store(s)
 
       <Layout pageTitle="Blog">
         <h3>Profile of our kelp tool with temperature data here!</h3>
-      <iframe width="100%" height="500px" src="https://studio.unfolded.ai/public/dd8f0bad-ead6-4711-b7a4-a8b244fb0c5f/embed" frameborder="0" allowfullscreen></iframe>
-      
+      {/* <iframe width="100%" height="500px" src="https://studio.unfolded.ai/public/dd8f0bad-ead6-4711-b7a4-a8b244fb0c5f/embed" frameborder="0" allowfullscreen></iframe> */}
+      <img src="https://firebasestorage.googleapis.com/v0/b/saki-9d2d0.appspot.com/o/ss.jpeg?alt=media&token=430a8cab-45aa-437f-a063-0396a66900e8" alt="image" width="700" height="600"></img>
+      <br/><a href='https://studio.unfolded.ai/public/dd8f0bad-ead6-4711-b7a4-a8b244fb0c5f/'> View on Unfolded Studio</a>
       <br/><br/>
-      <p>Sample Question: ______________________</p>
+      <p><b>What does the earth heat level look like against earth imagery?</b><br/>
 
-<p>How to answer it using the tool : ____________________</p>
+    &nbsp;&nbsp;&nbsp;This tool allows an easy view of the earth's heat level against land.</p>
 
 
 

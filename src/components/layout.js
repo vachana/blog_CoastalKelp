@@ -35,7 +35,7 @@ const Layout = ({ location, title, children }) => {
   </li>
   <li className={navLinkItem}>
      <Link to="/blogone" className={navLinkText}>
-       Project1 Blog
+     Building the Earth Data Store(s)Blog
      </Link>
    </li>
    <li className={navLinkItem}>

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Building the Earth Data Store(s)`,
+    title: `Coastal Kelp`,
     // author: {
     //   name: `Kyle Mathews`,
     //   summary: `who lives and works in San Francisco building useful things.`,
